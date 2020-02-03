@@ -24,20 +24,37 @@ h1 {
     text-align: left;
     display: table-cell;
     font-family: Sourse Sans Pro, sans-serif;
-    font-size: 34px;
+    font-size: 32px;
     font-weight: 600;
-    line-height: 1.05;
+    line-height: 1.1;
     
 }
+
 h2 {
     text-align: right;
     display: table-cell;
     font-family: Montserrat, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
-    line-height: 2.1;
-    
+    line-height: 2.35;
+}
 
+h3 {
+    text-align: right;
+    display: table-cell;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+h4 {
+    text-align: left;
+    display: table-cell;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.37;
 }
 
 .container {
@@ -88,6 +105,7 @@ div {
     border-left: solid 1.3px white;
     border-right: solid 1.3px white;
 }
+
 .rect-four {
     background-color: #FD971C;
     width: 6.25%;
@@ -98,6 +116,7 @@ div {
     border-left: solid 1.3px white;
     border-right: solid 1.3px white;
 }
+
 .rect-five {
     background-color: #FD971C;
     width: 3.125%;
@@ -114,11 +133,36 @@ div {
 .left-text {
     display: table;
     display: inline-block;
+    vertical-align:top;
+    padding-top: 5px;
+    padding-left: 68px;
+    margin-top: 330px;
+    
 }
 
 .right-text {
     display: table;
     display: inline-block;
+    margin-top: 330px;
+    margin-left: 20px;
+   
+    
+}
+
+.bottom-text-left {
+    display: table;
+    display: inline-block;
+    vertical-align:top;
+    padding-top: 5px;
+    padding-left: 18px;
+    margin-top: 162px;
+}
+
+.bottom-text-right {
+    display: table;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 16px;
 }
 
 /* /Text*/
