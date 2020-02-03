@@ -1,7 +1,9 @@
+/* Global Elements */
+
 body {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 .container {
     display: table;
@@ -9,8 +11,42 @@ body {
 }
 
 div {
- display: inline-block;
- height: 100vh;
- width: 100%;
-  
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+
 }
+
+/* /Global Elements */
+
+/* Rectangles */
+
+.rect-one {
+    background-color: #e84610;
+    width: 50%;
+    display: table-cell;
+}
+
+.rect-two {
+    background-color: #0799d3;
+    width: 25%;
+    display: table-cell;
+}
+
+.rect-three {
+    background-color: #285e32;
+    width: 12.5%;
+    display: table-cell;
+}
+.rect-four {
+    background-color: #c934c9;
+    width: 6.25%;
+    display: table-cell;
+}
+.rect-five {
+    background-color: #b9c426;
+    width: 3.125%;
+    display: table-cell;
+}
+
+/* /Rectangles */
