@@ -8,6 +8,16 @@ body {
     /* height & width converted from mm to pixel A4 210mm x 297mm = 793.7px x 1122.5px*/
     height: 1122.5px;
 }
+
+main {
+    background-color: #F4EFEB;
+    width: 793.7px;
+    height: 1122.5px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
 .container {
     display: table;
     width: 793.7px;
@@ -27,44 +37,52 @@ div {
 /* Rectangles */
 
 .rect-one {
-    background-color: #e84610;
+    background-color: #FD971C;
     width: 50%;
     display: table-cell;
     position: relative;
     top: 0;
+    border-right: solid 1.3px white;
 }
 
 .rect-two {
-    background-color: #0799d3;
+    background-color: #FD971C;
     width: 25%;
     display: table-cell;
     position: relative;
     /* position converted from mm to pixel 2/8 of A4 297mm from top */
     top: 280.6px;
+    border-left: solid 1.3px white;
+    border-right: solid 1.3px white;
 }
 
 .rect-three {
-    background-color: #285e32;
+    background-color: #FD971C;
     width: 12.5%;
     display: table-cell;
     position: relative;
     /* position converted from mm to pixel 1/5 of A4 297mm from top */
     top: 449px;
+    border-left: solid 1.3px white;
+    border-right: solid 1.3px white;
 }
 .rect-four {
-    background-color: #c934c9;
+    background-color: #FD971C;
     width: 6.25%;
     display: table-cell;
     position: relative;
      /* position converted from mm to pixel 1/7 of A4 297mm from top */
     top: 160.2px;
+    border-left: solid 1.3px white;
+    border-right: solid 1.3px white;
 }
 .rect-five {
-    background-color: #b9c426;
+    background-color: #FD971C;
     width: 3.125%;
     display: table-cell;
     position: relative;
     top: 0;
+    border-left: solid 1.3px white;
 }
 
 /* /Rectangles */
